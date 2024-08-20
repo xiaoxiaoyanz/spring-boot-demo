@@ -1,13 +1,13 @@
 server:
-  port: 8080
+  port: 8058
   servlet:
     context-path: /demo
 spring:
   rabbitmq:
-    host: localhost
+    host: 192.168.1.4
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: wuqwe123
     virtual-host: /
     # 手动提交消息
     listener:
